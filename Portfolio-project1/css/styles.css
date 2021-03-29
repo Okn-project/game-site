@@ -6,7 +6,47 @@
 
 body {
   width: 1920px;
+  background: #F2F2F2;;
 }
 .wrapper {
   width: 1140px;
+  margin: 0 auto;
 }
+.visibility_hidden{
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+
+.promo{
+background-image: url(../images/section_1/main_bg.jpg);
+min-height: 802px;
+}
+.section_1 {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-content: start;
+padding-top: 39px;
+padding-bottom: 61px;
+
+}
+
+.logo{
+margin-bottom: 10px;
+display: block;
+}
+
+.promo_header{
+width: 100%;  
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 53px;
+}
+
