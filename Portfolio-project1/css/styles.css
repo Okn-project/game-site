@@ -166,16 +166,22 @@ body {
   margin-top: 45px;
   justify-content: space-between;
 }
-.section_2_wrapper_1_column {
+.section_2_wrapper_column {
   width: 369px;
-  height: 312px;
-  background: green;
   outline: 1px solid black;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
+  flex-direction: column;
+
 }
-.section_2_wrapper_1_column > img {
+.section_2_wrapper_column > img {
   margin: 0 auto;
+  margin-bottom: 26px;
 }
+
+.section_2_wrapper_column_p {
+  color: #4a4a4a;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+}
+
