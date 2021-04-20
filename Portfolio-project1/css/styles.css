@@ -278,11 +278,10 @@ body {
 
 .section_4_block {
   width: 208px;
-  outline: 1px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: baseline;
 }
 
 .circle {
@@ -290,14 +289,57 @@ body {
   height: 118px;
   background: #b4e2ff;
   border-radius: 50%;
-  outline: 1px solid red;
   margin-bottom: 24.5px;
 }
 
-.section_4_block_p{
+.section_4_block_p {
   font-weight: 300;
   font-size: 17px;
   line-height: 20px;
-  color: #EFEFEF;
+  color: #efefef;
   text-align: center;
+}
+.c1 {
+  background-image: url(../images/section_4/section4_icon1.png);
+}
+.c2 {
+  background-image: url(../images/section_4/section4_icon2.png);
+}
+.c3 {
+  background-image: url(../images/section_4/section4_icon3.png);
+}
+.c4 {
+  background-image: url(../images/section_4/section4_icon4.png);
+}
+.c5 {
+  background-image: url(../images/section_4/section4_icon5.png);
+}
+.c1,
+.c2,
+.c3,
+.c4,
+.c5 {
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.subscribe {
+  padding-top: 88px;
+  min-height: 631px;
+}
+
+.section_5 {
+  outline: 5px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_5_icon {
+  min-height: 174px;
+  width: 154px;
+  background-image: url(../images/section_5/section5_icon1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
