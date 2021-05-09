@@ -420,3 +420,27 @@ body {
   margin-bottom: 52px;
   letter-spacing: 1.5pt;
 }
+
+footer {
+  min-height: 169px;
+  background-color: #1a1a1a;
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #888888;
+  padding: 57px 0 69px 0;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #888888;
+}
+
+footer a:first-child::after {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 15px;
+  border-right: 1px solid #888888;
+}
